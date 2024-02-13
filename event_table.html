@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+        }
+
+        th {
+            background-color: black;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #bbbbbb;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Event Table</h1>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Event Details</th>
+                <th>Date</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">General Assembly</td>
+                <td>February 20, 2024</td>
+                <td>Amphitheater</td>
+            </tr>
+            <tr>
+                <td colspan="2">General Cleaning</td>
+                <td>March 15, 2024</td>
+                <td>College of Sciences Area</td>
+            </tr>
+            <tr>
+                <td colspan="2">CS Election</td>
+                <td>April 10, 2024</td>
+                <td>CS Building</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
